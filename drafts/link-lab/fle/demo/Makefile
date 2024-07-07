@@ -13,14 +13,14 @@ hello: $(OBJS) tools
 %.o: %.c tools
 	$(CC) $(CFLAGS) $< -o $@
 
-# fle.py is all the binutils!
+# build/FLETools is all the binutils!
 tools:
-	@ln -f -s ../fle.py cc
-	@ln -f -s ../fle.py ld
-	@ln -f -s ../fle.py exec
-	@ln -f -s ../fle.py objdump
-	@ln -f -s ../fle.py readfle
-	@ln -f -s ../fle.py nm
+	@ln -f -s ../build/FLETools cc
+	@ln -f -s ../build/FLETools ld
+	@ln -f -s ../build/FLETools exec
+	@ln -f -s ../build/FLETools objdump
+	@ln -f -s ../build/FLETools readfle
+	@ln -f -s ../build/FLETools nm
 
 clean:
 	rm -f $(OBJS) $(SRCS:.c=.fle) cc ld exec exec objdump readfle nm hello
