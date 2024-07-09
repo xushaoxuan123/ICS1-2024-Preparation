@@ -84,8 +84,7 @@ level: 2
 
 ## Classroom
 
-![alt text](image-2.png)
-
+<img src="image-2.png"/>
 
 ---
 level: 2
