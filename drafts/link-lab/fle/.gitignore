@@ -1,0 +1,8 @@
+**/*.o
+**/*.fle
+demo/cc
+demo/ld
+demo/exec
+demo/objdump
+demo/readfle
+demo/nm
